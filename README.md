@@ -6,12 +6,25 @@ Tutorial video: https://www.youtube.com/watch?v=7DQEQPlBNVM&list=PLEt8Tae2spYnHy
     pip freeze > requirements.txt
 
 Indítás
-```bash
+```
 fastapi dev
 ```
 
 vagy
-```bash
+```
 fastapi dev main.py
 ```
 
+## Adatbázis
+
+```
+pip install asyncpg
+```
+
+```
+pip install pydantic-settings
+```
+
+```
+pip install sqlmodel
+```
