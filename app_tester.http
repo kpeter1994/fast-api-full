@@ -1,0 +1,18 @@
+### hello world request
+GET http://127.0.0.1:8000/
+
+### greet request
+GET http://127.0.0.1:8000/greet?name=John&age=30
+
+
+### create book
+POST http://127.0.0.1:8000/create_book
+Content-Type: application/json
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald"
+}
+
+### get_headers
+GET http://127.0.0.1:8000/get_headers
