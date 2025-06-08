@@ -33,7 +33,7 @@ async def create_book(book_data: BookCreateModel):
         }
     }
 
-@app.get("/get_headers")
+@app.get("/get_headers", status_code=404)
 async def get_headers(
         accept:str = Header(None),
         content_type: str = Header(None),

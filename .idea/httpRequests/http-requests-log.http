@@ -1,0 +1,418 @@
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T155604.404.json
+
+###
+
+POST http://127.0.0.1:8000/create_book
+Content-Type: application/json
+Content-Length: 68
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald"
+}
+
+<> 2025-06-08T155537.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T155516.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T154506.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T154245.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T154215.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T154214.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T154213.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T154032.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T153646.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T153645.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T153450.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T153447.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T153431.404.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T153430.404.json
+
+###
+
+GET http://127.0.0.1:8000/get_headers
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T153429.404.json
+
+###
+
+POST http://127.0.0.1:8000/create_book
+Content-Type: application/json
+Content-Length: 68
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald"
+}
+
+<> 2025-06-08T152841.200.json
+
+###
+
+POST http://127.0.0.1:8000/create_book
+Content-Type: application/json
+Content-Length: 68
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald"
+}
+
+<> 2025-06-08T152730.200.json
+
+###
+
+POST http://127.0.0.1:8000/create_book
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+}
+
+<> 2025-06-08T152630.422.json
+
+###
+
+POST http://127.0.0.1:8000/create_book
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+}
+
+<> 2025-06-08T152445.404.json
+
+###
+
+POST http://127.0.0.1:8000/create_book
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+}
+
+<> 2025-06-08T152443.404.json
+
+###
+
+POST http://127.0.0.1:8000/create_book
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+}
+
+<> 2025-06-08T152441.404.json
+
+###
+
+GET http://127.0.0.1:8000/greet?name=John&age=30
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150842.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet?name=John
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150836.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150824.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet/John
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150819.404.json
+
+###
+
+GET http://127.0.0.1:8000/greet/John?age=30
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150354.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet/John?age=30
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150353.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet?name=John
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150115.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet?namde=John
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150111.422.json
+
+###
+
+GET http://127.0.0.1:8000/greet?name=John
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150056.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150013.422.json
+
+###
+
+GET http://127.0.0.1:8000/greet
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T150011.404.json
+
+###
+
+GET http://127.0.0.1:8000/greet
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T145951.404.json
+
+###
+
+GET http://127.0.0.1:8000/greet/peter
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T145817-1.200.json
+
+###
+
+GET http://127.0.0.1:8000
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T145817.200.json
+
+###
+
+GET http://127.0.0.1:8000
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T145723.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet/Peter
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T145413-1.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet/Peter
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T145413.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet/Peter
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T145411.200.json
+
+###
+
+GET http://127.0.0.1:8000/greet/Peter
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T145336.200.json
+
+###
+
