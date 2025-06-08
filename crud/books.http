@@ -1,8 +1,8 @@
 ### get all books
-GET http://127.0.0.1:8000/books
+GET http://127.0.0.1:8000/api/v1/books
 
 ### create a book
-POST http://127.0.0.1:8000/books
+POST http://127.0.0.1:8000/api/v1/books
 Content-Type: application/json
 
 {
@@ -16,10 +16,10 @@ Content-Type: application/json
 }
 
 ### visit a book
-GET http://127.0.0.1:8000/books/5
+GET http://127.0.0.1:8000/api/v1/books/5
 
 ### update a book
-PATCH http://127.0.0.1:8000/books/5
+PATCH http://127.0.0.1:8000/api/v1/books/5
 Content-Type: application/json
 
 {
@@ -31,4 +31,4 @@ Content-Type: application/json
 }
 
 ### delete a book
-DELETE http://127.0.0.1:8000/books/5
+DELETE http://127.0.0.1:8000/api/v1/books/4

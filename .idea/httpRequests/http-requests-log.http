@@ -1,3 +1,196 @@
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-08T182930.200.json
+
+###
+
+DELETE http://127.0.0.1:8000/api/v1/books/4
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-08T182915.200.json
+
+###
+
+PATCH http://127.0.0.1:8000/api/v1/books/5
+Content-Type: application/json
+Content-Length: 173
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "title": "Büszkeség és balítélet",
+        "author": "Jane Austen",
+        "publisher": "Egerton",
+        "page_count": 3000,
+        "language": "Magyar"
+}
+
+<> 2025-06-08T182911.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/5
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T182908.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 225
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-08T182906.201.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-08T182904.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 225
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-08T182522.500.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-08T182512.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 225
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-08T182449.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 225
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-08T182436.500.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-08T182434.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-08T182304.200.json
+
+###
+
+GET http://127.0.0.1:8000/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-08T182157.404.json
+
+###
+
 GET http://127.0.0.1:8000/books
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -448,139 +641,6 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 <> 2025-06-08T164505.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T155604.404.json
-
-###
-
-POST http://127.0.0.1:8000/create_book
-Content-Type: application/json
-Content-Length: 68
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "title": "The Great Gatsby",
-  "author": "F. Scott Fitzgerald"
-}
-
-<> 2025-06-08T155537.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T155516.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T154506.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T154245.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T154215.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T154214.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T154213.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T154032.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T153646.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T153645.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T153450.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T153447.200.json
-
-###
-
-GET http://127.0.0.1:8000/get_headers
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T153431.404.json
 
 ###
 
