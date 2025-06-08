@@ -1,0 +1,34 @@
+### get all books
+GET http://127.0.0.1:8000/books
+
+### create a book
+POST http://127.0.0.1:8000/books
+Content-Type: application/json
+
+{
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+### visit a book
+GET http://127.0.0.1:8000/books/5
+
+### update a book
+PATCH http://127.0.0.1:8000/books/5
+Content-Type: application/json
+
+{
+        "title": "Büszkeség és balítélet",
+        "author": "Jane Austen",
+        "publisher": "Egerton",
+        "page_count": 3000,
+        "language": "Magyar"
+}
+
+### delete a book
+DELETE http://127.0.0.1:8000/books/5
