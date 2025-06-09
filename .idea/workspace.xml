@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148310c2-7735-4de9-9b0e-f5cbd312d9fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crud/src/books/services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/auth/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/books.http" beforeDir="false" afterPath="$PROJECT_DIR$/crud/books.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/books/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/books/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/db/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/db/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,46 +40,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.All in app_tester.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.app_tester | GET request to example server.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.app_tester | Response.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.app_tester | create book.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.app_tester | get_headers.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.app_tester | greet request.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.books | create a book (1).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.books | create a book.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.books | delete a book.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.books | get all books (1).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.books | get all books.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.books | update a book.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.books | visit a book.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/KomPhone/projects/experimental/fast-api-full/crud/src/db&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.All in app_tester.executor": "Run",
+    "HTTP Request.app_tester | GET request to example server.executor": "Run",
+    "HTTP Request.app_tester | Response.executor": "Run",
+    "HTTP Request.app_tester | create book.executor": "Run",
+    "HTTP Request.app_tester | get_headers.executor": "Run",
+    "HTTP Request.app_tester | greet request.executor": "Run",
+    "HTTP Request.books | create a book (1).executor": "Run",
+    "HTTP Request.books | create a book.executor": "Run",
+    "HTTP Request.books | delete a book.executor": "Run",
+    "HTTP Request.books | get all books (1).executor": "Run",
+    "HTTP Request.books | get all books.executor": "Run",
+    "HTTP Request.books | update a book.executor": "Run",
+    "HTTP Request.books | visit a book.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/KomPhone/projects/experimental/fast-api-full/crud/src/auth",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud\src\auth" />
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud\src\db" />
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full" />
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud" />
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud" />
-      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud\src\books" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full" />
@@ -132,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.books | delete a book" />
         <item itemvalue="HTTP Request.books | get all books (1)" />
         <item itemvalue="HTTP Request.books | create a book (1)" />
         <item itemvalue="HTTP Request.books | update a book" />
+        <item itemvalue="HTTP Request.books | delete a book" />
         <item itemvalue="HTTP Request.books | visit a book" />
       </list>
     </recent_temporary>
@@ -158,7 +156,7 @@
       <updated>1749381060677</updated>
       <workItem from="1749381062116" duration="7627000" />
       <workItem from="1749390814656" duration="16625000" />
-      <workItem from="1749447944773" duration="14533000" />
+      <workItem from="1749447944773" duration="20220000" />
     </task>
     <servers />
   </component>

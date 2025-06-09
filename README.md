@@ -28,3 +28,10 @@ pip install pydantic-settings
 ```
 pip install sqlmodel
 ```
+
+
+```
+pip install alombic
+alembic init -t async crud/migrations
+alembic upgrade head
+```

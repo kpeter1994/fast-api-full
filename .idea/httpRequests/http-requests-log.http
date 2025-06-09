@@ -1,3 +1,103 @@
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T142130.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-09T142123.201.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T142121.200.json
+
+###
+
+PATCH http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132
+Content-Type: application/json
+Content-Length: 173
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "title": "Büszkeség és balítélet",
+        "author": "Jane Austen",
+        "publisher": "Egerton",
+        "page_count": 3000,
+        "language": "Magyar"
+}
+
+<> 2025-06-09T142119.404.json
+
+###
+
+PATCH http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132
+Content-Type: application/json
+Content-Length: 173
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "title": "Büszkeség és balítélet",
+        "author": "Jane Austen",
+        "publisher": "Egerton",
+        "page_count": 3000,
+        "language": "Magyar"
+}
+
+<> 2025-06-09T142118.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-09T142116.201.json
+
+###
+
 DELETE http://127.0.0.1:8000/api/v1/books/77705161-d7fd-43fc-be60-7691b444882c
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -579,79 +679,6 @@ Accept: */*
 }
 
 <> 2025-06-08T173047.200.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T172632.200.json
-
-###
-
-PATCH http://127.0.0.1:8000/books/5
-Content-Type: application/json
-Content-Length: 176
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "title": "Büszkeség és balítélet",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "page_count": 3000,
-        "language": "Magyar"
-}
-
-<> 2025-06-08T172628.200.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T172624.200.json
-
-###
-
-PATCH http://127.0.0.1:8000/books/5
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 5,
-        "publisher": "T. Egerton",
-        "page_count": 1200,
-        "language": "HUNGARIAN"
-}
-
-<> 2025-06-08T172514.422.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T172509.200.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T172504.200.json
 
 ###
 
