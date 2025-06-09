@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148310c2-7735-4de9-9b0e-f5cbd312d9fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/02_crud/books.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_crud/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/books/services.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tester.http" beforeDir="false" afterPath="$PROJECT_DIR$/01_web_server_basic/app_tester.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http-client.env.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_web_server_basic/http-client.env.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_web_server_basic/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/books.http" beforeDir="false" afterPath="$PROJECT_DIR$/crud/books.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/books/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/books/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/db/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/db/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Public Environment File" />
-        <option value="Python Script" />
         <option value="HTTP Request" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -42,46 +42,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.All in app_tester.executor": "Run",
-    "HTTP Request.app_tester | GET request to example server.executor": "Run",
-    "HTTP Request.app_tester | Response.executor": "Run",
-    "HTTP Request.app_tester | create book.executor": "Run",
-    "HTTP Request.app_tester | get_headers.executor": "Run",
-    "HTTP Request.app_tester | greet request.executor": "Run",
-    "HTTP Request.books | get all books.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.All in app_tester.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | Response.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | create book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | get_headers.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | greet request.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | create a book (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | create a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | delete a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | get all books (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | get all books.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | update a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | visit a book.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KomPhone/projects/experimental/fast-api-full/crud/src/db&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud\src\db" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud\src\books" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\01_web_server_basic" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud\src\books" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud" />
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud\src\books" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="All in app_tester" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/app_tester.http">
+    <configuration name="books | create a book (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="create a book" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="app_tester | create book" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/app_tester.http" executionIdentifier="create book" index="3" runType="Run single request">
+    <configuration name="books | delete a book" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="delete a book" index="5" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="app_tester | get_headers" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/app_tester.http" executionIdentifier="get_headers" index="4" runType="Run single request">
+    <configuration name="books | get all books (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="get all books" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="app_tester | greet request" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/app_tester.http" executionIdentifier="greet request" index="2" runType="Run single request">
+    <configuration name="books | update a book" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="update a book" index="4" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="books | get all books" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/02_crud/books.http" executionIdentifier="get all books" runType="Run single request">
+    <configuration name="books | visit a book" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="visit a book" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -109,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.books | get all books" />
-        <item itemvalue="HTTP Request.app_tester | get_headers" />
-        <item itemvalue="HTTP Request.app_tester | create book" />
-        <item itemvalue="HTTP Request.app_tester | greet request" />
-        <item itemvalue="HTTP Request.All in app_tester" />
+        <item itemvalue="HTTP Request.books | delete a book" />
+        <item itemvalue="HTTP Request.books | get all books (1)" />
+        <item itemvalue="HTTP Request.books | create a book (1)" />
+        <item itemvalue="HTTP Request.books | update a book" />
+        <item itemvalue="HTTP Request.books | visit a book" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +157,8 @@
       <option name="presentableId" value="Default" />
       <updated>1749381060677</updated>
       <workItem from="1749381062116" duration="7627000" />
-      <workItem from="1749390814656" duration="2503000" />
+      <workItem from="1749390814656" duration="16625000" />
+      <workItem from="1749447944773" duration="14533000" />
     </task>
     <servers />
   </component>

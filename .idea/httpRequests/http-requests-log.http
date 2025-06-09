@@ -1,3 +1,281 @@
+DELETE http://127.0.0.1:8000/api/v1/books/77705161-d7fd-43fc-be60-7691b444882c
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-06-09T134408.404.json
+
+###
+
+DELETE http://127.0.0.1:8000/api/v1/books/77705161-d7fd-43fc-be60-7691b444882c
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://127.0.0.1:8000/api/v1/books/77705161-d7fd-43fc-be60-7691b444882c
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T134210.200.json
+
+###
+
+DELETE http://127.0.0.1:8000/api/v1/books/77705161-d7fd-43fc-be60-7691b444882c
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T134052.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-09T134041.201.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T134037.200.json
+
+###
+
+PATCH http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132
+Content-Type: application/json
+Content-Length: 173
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "title": "Büszkeség és balítélet",
+        "author": "Jane Austen",
+        "publisher": "Egerton",
+        "page_count": 3000,
+        "language": "Magyar"
+}
+
+<> 2025-06-09T133913.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-09T133911.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T133848.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-09T133838.201.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T133836.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T132912.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T112152.500.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T111933.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-09T111917.201.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-09T111718.201.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-06-09T111448.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-09T105925.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/books
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+{
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "published_date": "1813-01-28",
+        "page_count": 279,
+        "language": "English"
+}
+
+<> 2025-06-09T105922.500.txt
+
+###
+
 GET http://127.0.0.1:8000/api/v1/books
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -374,273 +652,6 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 <> 2025-06-08T172504.200.json
-
-###
-
-PATCH http://127.0.0.1:8000/books/5
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 5,
-        "publisher": "T. Egerton",
-        "page_count": 1200,
-        "language": "HUNGARIAN"
-}
-
-<> 2025-06-08T172500.422.json
-
-###
-
-PATCH http://127.0.0.1:8000/books
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 5,
-        "publisher": "T. Egerton",
-        "page_count": 1200,
-        "language": "HUNGARIAN"
-}
-
-<> 2025-06-08T172434.405.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T172429.200.json
-
-###
-
-POST http://127.0.0.1:8000/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T172426.201.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T172424.404.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T172423.404.json
-
-###
-
-GET http://127.0.0.1:8000/books/2
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T171049.200.json
-
-###
-
-GET http://127.0.0.1:8000/books/20
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T171043.404.json
-
-###
-
-GET http://127.0.0.1:8000/books/2
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T171038.200.json
-
-###
-
-GET http://127.0.0.1:8000/books/2
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T170945.404.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T170939.404.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T170706.500.txt
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T170644.500.txt
-
-###
-
-POST http://127.0.0.1:8000/books
-Content-Type: application/json
-Content-Length: 227
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 100,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T170630.201.json
-
-###
-
-POST http://127.0.0.1:8000/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 2,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T170623.201.json
-
-###
-
-POST http://127.0.0.1:8000/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T170615.201.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T170548.500.txt
-
-###
-
-GET http://127.0.0.1:8000/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T165918.200.json
-
-###
-
-POST http://127.0.0.1:8000/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T165902.201.json
-
-###
-
-GET http://127.0.0.1:8000/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T164915.200.json
-
-###
-
-GET http://127.0.0.1:8000/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T164505.200.json
 
 ###
 

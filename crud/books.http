@@ -6,7 +6,6 @@ POST http://127.0.0.1:8000/api/v1/books
 Content-Type: application/json
 
 {
-        "id": 5,
         "title": "Pride and Prejudice",
         "author": "Jane Austen",
         "publisher": "T. Egerton",
@@ -16,10 +15,10 @@ Content-Type: application/json
 }
 
 ### visit a book
-GET http://127.0.0.1:8000/api/v1/books/5
+GET http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132
 
 ### update a book
-PATCH http://127.0.0.1:8000/api/v1/books/5
+PATCH http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132
 Content-Type: application/json
 
 {
@@ -31,4 +30,4 @@ Content-Type: application/json
 }
 
 ### delete a book
-DELETE http://127.0.0.1:8000/api/v1/books/4
+DELETE http://127.0.0.1:8000/api/v1/books/77705161-d7fd-43fc-be60-7691b444882c
