@@ -1,3 +1,444 @@
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-06-20T192655.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "12345g6"
+}
+
+<> 2025-06-20T192650.403.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-06-20T192636.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-06-18T195034.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-06-18T194657.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-06-18T194453.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-06-18T194314.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-06-18T194123.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-06-18T194033.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 138
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpehjter@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-18T194029.403.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 138
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpehjter@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-16T192658.403.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 138
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpehjter@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-16T192613.201.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 136
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpeter@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-16T192518.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 137
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpeter7@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-16T192227.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpeter787@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-16T191822.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpeter777@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-16T191808.403.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpeter777@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-16T191715.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 105
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "email": "smitpeter777@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-06-16T190923.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 107
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter",
+        "email": "smitpeter777@gmail.com",
+        "password": "Kokok777"
+}
+
+<> 2025-06-16T190904.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter94",
+        "email": "smitpeter777@gmail.com",
+        "password": "Kokok777"
+}
+
+<> 2025-06-16T190841.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1//users/signup
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter94",
+        "email": "smitpeter777@gmail.com",
+        "password": "Kokok777"
+}
+
+<> 2025-06-16T190806.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1//users/signup
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter94",
+        "email": "smitpeter777@gmail.com",
+        "password": "Kokok777"
+}
+
+<> 2025-06-16T190756.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/signup
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter94",
+        "email": "smitpeter777@gmail.com",
+        "password": "Kokok777"
+}
+
+<> 2025-06-16T190737.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter94",
+        "email": "smitpeter777@gmail.com",
+        "password": "Kokok777"
+}
+
+<> 2025-06-16T190532.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter94",
+        "email": "smitpeter777@gmail.com",
+        "password": "Kokok777"
+}
+
+<> 2025-06-16T190511.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "kpeter94",
+        "email": "smitpeter777@gmail.com",
+        "password": "Kokok777"
+}
+
+<> 2025-06-16T190327.404.json
+
+###
+
 GET http://127.0.0.1:8000/api/v1/books
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -321,364 +762,6 @@ cookie:
 }
 
 <> 2025-06-09T111718.201.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-09T111448.500.txt
-
-###
-
-POST http://127.0.0.1:8000/api/v1/books
-Content-Type: application/json
-Content-Length: 208
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-{
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-09T105925.500.txt
-
-###
-
-POST http://127.0.0.1:8000/api/v1/books
-Content-Type: application/json
-Content-Length: 208
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-{
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-09T105922.500.txt
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-08T182930.200.json
-
-###
-
-DELETE http://127.0.0.1:8000/api/v1/books/4
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-08T182915.200.json
-
-###
-
-PATCH http://127.0.0.1:8000/api/v1/books/5
-Content-Type: application/json
-Content-Length: 173
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "title": "Büszkeség és balítélet",
-        "author": "Jane Austen",
-        "publisher": "Egerton",
-        "page_count": 3000,
-        "language": "Magyar"
-}
-
-<> 2025-06-08T182911.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T182908.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/v1/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-{
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T182906.201.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-08T182904.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/v1/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-{
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T182522.500.txt
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-08T182512.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/v1/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-{
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T182449.500.txt
-
-###
-
-POST http://127.0.0.1:8000/api/v1/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-{
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T182436.500.txt
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-08T182434.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-08T182304.200.json
-
-###
-
-GET http://127.0.0.1:8000/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T182157.404.json
-
-###
-
-GET http://127.0.0.1:8000/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T173401.200.json
-
-###
-
-DELETE http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://127.0.0.1:8000/books/800
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2025-06-08T173342.404.json
-
-###
-
-GET http://127.0.0.1:8000/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T173333.200.json
-
-###
-
-PATCH http://127.0.0.1:8000/books/5
-Content-Type: application/json
-Content-Length: 173
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "title": "Büszkeség és balítélet",
-        "author": "Jane Austen",
-        "publisher": "Egerton",
-        "page_count": 3000,
-        "language": "Magyar"
-}
-
-<> 2025-06-08T173331.200.json
-
-###
-
-GET http://127.0.0.1:8000/books
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T173321.200.json
-
-###
-
-POST http://127.0.0.1:8000/books
-Content-Type: application/json
-Content-Length: 225
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
-        "language": "English"
-}
-
-<> 2025-06-08T173314.201.json
-
-###
-
-GET http://127.0.0.1:8000/books/5
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-08T173051.200.json
-
-###
-
-PATCH http://127.0.0.1:8000/books/5
-Content-Type: application/json
-Content-Length: 173
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-        "title": "Büszkeség és balítélet",
-        "author": "Jane Austen",
-        "publisher": "Egerton",
-        "page_count": 3000,
-        "language": "Magyar"
-}
-
-<> 2025-06-08T173047.200.json
 
 ###
 

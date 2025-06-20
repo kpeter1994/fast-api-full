@@ -1,0 +1,20 @@
+
+### create a user
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+
+{
+        "username": "kpeter",
+        "name": "Kovács Péter",
+        "email": "smitpehjter@gmail.com",
+        "password": "123456"
+}
+
+#### login a user
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+
+{
+  "email": "smitpehjter@gmail.com",
+  "password": "123456"
+}
