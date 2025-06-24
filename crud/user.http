@@ -18,3 +18,7 @@ Content-Type: application/json
   "email": "smitpehjter@gmail.com",
   "password": "123456"
 }
+
+### create refresh token
+GET http://127.0.0.1:8000/api/v1/users/refresh_token
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzEyOTc3LCJqdGkiOiI3YTdhYjk2OS02YjEzLTQzMzEtOTM4NS05YThhNjliMmVmZjUiLCJyZWZyZXNoIjpmYWxzZX0.OQl3PTo0w_Ws7Tc9zORAsfDksoBm0UhF8gtxIULQK40
