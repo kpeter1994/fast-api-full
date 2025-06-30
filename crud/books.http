@@ -1,18 +1,19 @@
 ### get all books
 GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwODgwODQwLCJqdGkiOiIxZjQ0ZWNiYS1kZmUwLTQ4MDctOTJkYy0wYWNlMjMxYmFmYTkiLCJyZWZyZXNoIjp0cnVlfQ.DHcCsfNnIHWl_-dvkt9XDWIC9sffppP73frZYoCDtLE
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyOTEzNzAsImp0aSI6IjA3ZWQ4OTQzLTZiYmItNGJhYy04YmNiLTg5ZjVhYmNlOTVjNSIsInJlZnJlc2giOmZhbHNlfQ.R8LGvh043cJB937Z_a6X2qbpqTzWD1r9e85ux0IjYLA
 
 
 ### create a book
 POST http://127.0.0.1:8000/api/v1/books
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyOTEzNzAsImp0aSI6IjA3ZWQ4OTQzLTZiYmItNGJhYy04YmNiLTg5ZjVhYmNlOTVjNSIsInJlZnJlc2giOmZhbHNlfQ.R8LGvh043cJB937Z_a6X2qbpqTzWD1r9e85ux0IjYLA
 
 {
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "publisher": "T. Egerton",
-        "published_date": "1813-01-28",
-        "page_count": 279,
+        "title": "Richard III",
+        "author": "William Shakespeare",
+        "publisher": "Thomas Creede",
+        "published_date": "1599-01-01",
+        "page_count": 120,
         "language": "English"
 }
 
@@ -33,3 +34,7 @@ Content-Type: application/json
 
 ### delete a book
 DELETE http://127.0.0.1:8000/api/v1/books/77705161-d7fd-43fc-be60-7691b444882c
+
+### get books for user
+GET http://127.0.0.1:8000/api/v1/books/user/e36cdd48-46f3-4da6-a673-42c5da4dac6f
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyOTEzNzAsImp0aSI6IjA3ZWQ4OTQzLTZiYmItNGJhYy04YmNiLTg5ZjVhYmNlOTVjNSIsInJlZnJlc2giOmZhbHNlfQ.R8LGvh043cJB937Z_a6X2qbpqTzWD1r9e85ux0IjYLA

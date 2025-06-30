@@ -8,10 +8,12 @@ from fastapi.exceptions import HTTPException
 from .utils import create_access_token, decode_token
 from datetime import timedelta, datetime
 from fastapi.responses import JSONResponse
-from .dependecies import RefreshTokenBearer
+from .dependecies import RefreshTokenBearer, AccessTokenBearer, get_current_user, RoleChecker
+from crud.src.db.redis import add_jti_to_blocklist
 
 auth_router = APIRouter()
 user_service = UserService()
+role_checker = RoleChecker(["admin", "user"])
 
 REFRESH_TOKEN_EXPIRY = 2
 
@@ -42,6 +44,7 @@ async def login_user(login_data: UserLoginModel, session: AsyncSession = Depends
                 user_data={
                     "email": user.email,
                     'user_uid': str(user.uid),
+                    "role": user.role,
                 }
             )
 
@@ -71,6 +74,10 @@ async def login_user(login_data: UserLoginModel, session: AsyncSession = Depends
         detail="Incorrect email or password",
     )
 
+@auth_router.get("/me", response_model=UserModel)
+async def get_current_user(user = Depends(get_current_user), _:bool = Depends(role_checker)):
+    return user
+
 @auth_router.get("/refresh_token")
 async def get_new_access_token(token_details: dict = Depends(RefreshTokenBearer())):
     expiry_timestamp = token_details['exp']
@@ -86,3 +93,16 @@ async def get_new_access_token(token_details: dict = Depends(RefreshTokenBearer(
             }
         )
     raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token expired or invalid")
+
+@auth_router.get("/logout")
+async def revooke_token(token_details:dict = Depends(AccessTokenBearer())):
+    jti = token_details['jti']
+    await add_jti_to_blocklist(jti)
+
+    return JSONResponse(
+        content={
+            "message": "Token revoked successfully"
+        },
+        status_code=status.HTTP_200_OK
+    )
+

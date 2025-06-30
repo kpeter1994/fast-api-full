@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 import uuid
+from typing import Optional
 from datetime import datetime, date
 
 class Book(BaseModel):
@@ -11,7 +12,7 @@ class Book(BaseModel):
     page_count: int
     language: str
     created_at: datetime
-    updated_at: datetime
+    updated_at: Optional[datetime] = None
 
 class BookCreateModel(BaseModel):
     title: str

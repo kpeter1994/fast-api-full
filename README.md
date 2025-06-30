@@ -30,8 +30,13 @@ pip install sqlmodel
 ```
 
 
+## Alembic
 ```
 pip install alombic
 alembic init -t async crud/migrations
 alembic upgrade head
 ```
+
+## Adatbázis frissítés
+
+```alembic revision --autogenerate -m "message"```
