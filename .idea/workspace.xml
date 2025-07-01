@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148310c2-7735-4de9-9b0e-f5cbd312d9fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crud/src/db/redis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/books.http" beforeDir="false" afterPath="$PROJECT_DIR$/crud/books.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/dependecies.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/dependecies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/auth/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/auth/schems.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/schems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/books/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/books/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/user.http" beforeDir="false" afterPath="$PROJECT_DIR$/crud/user.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,46 +40,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.All in app_tester.executor": "Run",
-    "HTTP Request.app_tester | GET request to example server.executor": "Run",
-    "HTTP Request.app_tester | Response.executor": "Run",
-    "HTTP Request.app_tester | create book.executor": "Run",
-    "HTTP Request.app_tester | get_headers.executor": "Run",
-    "HTTP Request.app_tester | greet request.executor": "Run",
-    "HTTP Request.books | create a book (1).executor": "Run",
-    "HTTP Request.books | create a book.executor": "Run",
-    "HTTP Request.books | delete a book.executor": "Run",
-    "HTTP Request.books | get all books (1).executor": "Run",
-    "HTTP Request.books | get all books.executor": "Run",
-    "HTTP Request.books | get books for user.executor": "Run",
-    "HTTP Request.books | update a book.executor": "Run",
-    "HTTP Request.books | visit a book.executor": "Run",
-    "HTTP Request.user | create a user.executor": "Run",
-    "HTTP Request.user | create refresh token.executor": "Run",
-    "HTTP Request.user | get me.executor": "Run",
-    "HTTP Request.user | login a user.executor": "Run",
-    "HTTP Request.user | logout a user.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/KomPhone/projects/experimental/fast-api-full/crud",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.All in app_tester.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | Response.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | create book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | get_headers.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | greet request.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | create a book (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | create a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | delete a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | get all books (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | get all books.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | get books for user.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | update a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | visit a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | create a user.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | create refresh token.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | get me.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | login a user.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | logout a user.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KomPhone/projects/experimental/fast-api-full/crud&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud" />
@@ -112,10 +100,10 @@
     <configuration name="books | create a book" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="create a book" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="books | get all books (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="get all books" runType="Run single request">
+    <configuration name="books | get books for user" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="get books for user" index="6" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="books | get books for user" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/books.http" executionIdentifier="get books for user" index="6" runType="Run single request">
+    <configuration name="user | create a user" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/user.http" executionIdentifier="create a user" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="user | get me" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/crud/user.http" executionIdentifier="get me" index="5" runType="Run single request">
@@ -150,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.user | get me" />
-        <item itemvalue="HTTP Request.user | login a user" />
-        <item itemvalue="HTTP Request.books | get books for user" />
         <item itemvalue="HTTP Request.books | create a book" />
-        <item itemvalue="HTTP Request.books | get all books (1)" />
+        <item itemvalue="HTTP Request.user | login a user" />
+        <item itemvalue="HTTP Request.user | create a user" />
+        <item itemvalue="HTTP Request.books | get books for user" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +170,8 @@
       <workItem from="1750439612470" duration="2875000" />
       <workItem from="1750695974012" duration="6213000" />
       <workItem from="1750784230237" duration="4381000" />
-      <workItem from="1751256492244" duration="19332000" />
+      <workItem from="1751256492244" duration="19994000" />
+      <workItem from="1751351536139" duration="3192000" />
     </task>
     <servers />
   </component>

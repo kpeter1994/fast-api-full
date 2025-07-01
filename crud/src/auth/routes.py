@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, status
-from .schems import UserCreateModel, UserModel, UserLoginModel
+from .schems import UserCreateModel, UserModel, UserLoginModel, UserBookModel
 from .services import UserService
 from .utils import verify_password
 from crud.src.db.main import get_session
@@ -74,7 +74,7 @@ async def login_user(login_data: UserLoginModel, session: AsyncSession = Depends
         detail="Incorrect email or password",
     )
 
-@auth_router.get("/me", response_model=UserModel)
+@auth_router.get("/me", response_model=UserBookModel)
 async def get_current_user(user = Depends(get_current_user), _:bool = Depends(role_checker)):
     return user
 

@@ -4,9 +4,9 @@ POST http://127.0.0.1:8000/api/v1/users/signup
 Content-Type: application/json
 
 {
-        "username": "kpeter",
-        "name": "Kovács Péter",
-        "email": "smitpehjter@gmail.com",
+        "username": "telek",
+        "name": "Teszt Elek",
+        "email": "tesztelek5@gmail.com",
         "password": "123456"
 }
 
@@ -15,7 +15,7 @@ POST http://127.0.0.1:8000/api/v1/users/login
 Content-Type: application/json
 
 {
-  "email": "smitpehjter@gmail.com",
+  "email": "tesztelek5@gmail.com",
   "password": "123456"
 }
 
@@ -29,5 +29,5 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsI
 
 ### get me
 GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyOTk5MjYsImp0aSI6IjhmYjBlM2VkLTJlMDctNDk4Yy1hOGZkLTk0MmZhZmIwZDQ0OSIsInJlZnJlc2giOmZhbHNlfQ.LYfKPEAJZ42-9OaFT51_q21GD8X9Pd4QhClpM5uKnCc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM2NTc4MSwianRpIjoiYjBmMWE3ZDQtNTFmNC00ZGRjLTk3OGUtYmQ5NzE3NmI4M2U3IiwicmVmcmVzaCI6ZmFsc2V9.wj3OK0TNMDPUflVd1-hFSdxik546z0ieO7pYm0qVZQ0
 
