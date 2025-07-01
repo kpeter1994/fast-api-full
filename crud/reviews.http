@@ -1,0 +1,11 @@
+
+### create a review
+POST http://127.0.0.1:8000/api/v1/reviews/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Type: application/json
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+

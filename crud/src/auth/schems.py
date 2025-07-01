@@ -5,6 +5,8 @@ from typing import List
 from crud.src.books.schemas import Book
 import uuid
 
+from crud.src.rewiews.schemas import Review
+
 
 class UserCreateModel(BaseModel):
     username: str = Field(max_length=8)
@@ -25,6 +27,7 @@ class UserModel(BaseModel):
 
 class UserBookModel(UserModel):
     books: List[Book]
+    reviews: List[Review]
 
 class UserLoginModel(BaseModel):
     email: str = Field(max_length=40)

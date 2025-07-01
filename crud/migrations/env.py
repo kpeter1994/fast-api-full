@@ -7,8 +7,7 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 from crud.src.config import Config
 
 from alembic import context
-from crud.src.auth.models import User
-from crud.src.books.models import Book
+from crud.src.db.models import User, Book
 from sqlmodel import SQLModel
 
 # this is the Alembic Config object, which provides

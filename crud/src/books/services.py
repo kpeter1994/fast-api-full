@@ -3,7 +3,7 @@ import uuid
 from sqlmodel.ext.asyncio.session import AsyncSession
 from .schemas import BookCreateModel, BookUpdateModel
 from sqlmodel import select, desc
-from .models import Book
+from crud.src.db.models import Book
 from datetime import datetime
 
 
@@ -20,7 +20,7 @@ class BookService:
 
         return result.all()
 
-    async def get_book(self, book_uid: str, session: AsyncSession):
+    async def get_book(self, book_uid: uuid.UUID, session: AsyncSession):
         statement = select(Book).where(Book.uid == book_uid)
         result = await session.exec(statement)
         book = result.first()

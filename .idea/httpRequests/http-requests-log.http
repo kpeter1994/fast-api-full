@@ -1,3 +1,372 @@
+GET http://127.0.0.1:8000/api/v1/books/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-01T143144.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-01T143125.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/reviews/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T142414.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/review/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T142301.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/review/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T142249.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/reviews/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T142033.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/reviews/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T141958.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/reviews/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T141946.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/reviews/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T141823.404.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-07-01T141804.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyOTEzNzAsImp0aSI6IjA3ZWQ4OTQzLTZiYmItNGJhYy04YmNiLTg5ZjVhYmNlOTVjNSIsInJlZnJlc2giOmZhbHNlfQ.R8LGvh043cJB937Z_a6X2qbpqTzWD1r9e85ux0IjYLA
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2025-07-01T141739.403.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/reviews/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T141702.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/reviews/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "rating": 3,
+        "review_text": "Teszt Elek teszt"
+}
+
+<> 2025-07-01T141441.404.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-01T141406.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "tesztelek5@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-07-01T141342.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM2NTc4MSwianRpIjoiYjBmMWE3ZDQtNTFmNC00ZGRjLTk3OGUtYmQ5NzE3NmI4M2U3IiwicmVmcmVzaCI6ZmFsc2V9.wj3OK0TNMDPUflVd1-hFSdxik546z0ieO7pYm0qVZQ0
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-01T141336.403.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM2NTc4MSwianRpIjoiYjBmMWE3ZDQtNTFmNC00ZGRjLTk3OGUtYmQ5NzE3NmI4M2U3IiwicmVmcmVzaCI6ZmFsc2V9.wj3OK0TNMDPUflVd1-hFSdxik546z0ieO7pYm0qVZQ0
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-01T141328.403.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "tesztelek5@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-07-01T141252.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM2NTc4MSwianRpIjoiYjBmMWE3ZDQtNTFmNC00ZGRjLTk3OGUtYmQ5NzE3NmI4M2U3IiwicmVmcmVzaCI6ZmFsc2V9.wj3OK0TNMDPUflVd1-hFSdxik546z0ieO7pYm0qVZQ0
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-01T141248.403.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "tesztelek5@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-07-01T141242.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "tesztelek5@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-07-01T140603.500.txt
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "tesztelek5@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-07-01T140241.500.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM2NTc4MSwianRpIjoiYjBmMWE3ZDQtNTFmNC00ZGRjLTk3OGUtYmQ5NzE3NmI4M2U3IiwicmVmcmVzaCI6ZmFsc2V9.wj3OK0TNMDPUflVd1-hFSdxik546z0ieO7pYm0qVZQ0
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-01T140235.403.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/login
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "tesztelek5@gmail.com",
+  "password": "123456"
+}
+
+<> 2025-07-01T140158.500.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM2NTc4MSwianRpIjoiYjBmMWE3ZDQtNTFmNC00ZGRjLTk3OGUtYmQ5NzE3NmI4M2U3IiwicmVmcmVzaCI6ZmFsc2V9.wj3OK0TNMDPUflVd1-hFSdxik546z0ieO7pYm0qVZQ0
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-01T095704.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/users/signup
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+        "username": "telek",
+        "name": "Teszt Elek",
+        "email": "tesztelek6@gmail.com",
+        "password": "123456"
+}
+
+<> 2025-07-01T095659.201.json
+
+###
+
 GET http://127.0.0.1:8000/api/v1/users/me
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM2NTc4MSwianRpIjoiYjBmMWE3ZDQtNTFmNC00ZGRjLTk3OGUtYmQ5NzE3NmI4M2U3IiwicmVmcmVzaCI6ZmFsc2V9.wj3OK0TNMDPUflVd1-hFSdxik546z0ieO7pYm0qVZQ0
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
@@ -373,297 +742,6 @@ cookie:
 }
 
 <> 2025-06-30T125119.403.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyOTEzNzAsImp0aSI6IjA3ZWQ4OTQzLTZiYmItNGJhYy04YmNiLTg5ZjVhYmNlOTVjNSIsInJlZnJlc2giOmZhbHNlfQ.R8LGvh043cJB937Z_a6X2qbpqTzWD1r9e85ux0IjYLA
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-30T124955.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/v1/users/login
-Content-Type: application/json
-Content-Length: 62
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "email": "smitpehjter@gmail.com",
-  "password": "123456"
-}
-
-<> 2025-06-30T124930.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzk4NjUwLCJqdGkiOiJhZTQwZGIwZi0zZWJmLTQ2N2UtYTRjNi0wNmQwYTMwNjU3ODkiLCJyZWZyZXNoIjpmYWxzZX0.0lUli3gSAWDzjV0T0fj8sGxpV6EjEdMaq2Oh-wgrkZQ
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-30T124921.403.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyNzY2NTIsImp0aSI6IjA1ZjI5ZDgzLThiNWEtNGFkZS1hNWJjLTk3MjIzNzU2YzQ3YiIsInJlZnJlc2giOmZhbHNlfQ.JyZsJyrM0XwWQEFoGpDpNtNe_wv7W3iiyx8637oGqPQ
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T084558.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyNzY2NTIsImp0aSI6IjA1ZjI5ZDgzLThiNWEtNGFkZS1hNWJjLTk3MjIzNzU2YzQ3YiIsInJlZnJlc2giOmZhbHNlfQ.JyZsJyrM0XwWQEFoGpDpNtNe_wv7W3iiyx8637oGqPQ
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T084437.403.json
-
-###
-
-POST http://127.0.0.1:8000/api/v1/users/login
-Content-Type: application/json
-Content-Length: 62
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "email": "smitpehjter@gmail.com",
-  "password": "123456"
-}
-
-<> 2025-06-30T084412.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUxMjcxMzQ5LCJqdGkiOiJjMWUxMjliZi0wY2M0LTRkZTctOGY3My1hOWI5NmM5NjMyZmQiLCJyZWZyZXNoIjpmYWxzZX0.VYXHZUsC16w56ytc_cnbhLESmqWiSwQh-bAcVjq4zpY
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T084402.403.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/logout
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUxMjcxMzQ5LCJqdGkiOiJjMWUxMjliZi0wY2M0LTRkZTctOGY3My1hOWI5NmM5NjMyZmQiLCJyZWZyZXNoIjpmYWxzZX0.VYXHZUsC16w56ytc_cnbhLESmqWiSwQh-bAcVjq4zpY
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T084359.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUxMjcxMzQ5LCJqdGkiOiJjMWUxMjliZi0wY2M0LTRkZTctOGY3My1hOWI5NmM5NjMyZmQiLCJyZWZyZXNoIjpmYWxzZX0.VYXHZUsC16w56ytc_cnbhLESmqWiSwQh-bAcVjq4zpY
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T084310.403.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUxMjcxMzQ5LCJqdGkiOiJjMWUxMjliZi0wY2M0LTRkZTctOGY3My1hOWI5NmM5NjMyZmQiLCJyZWZyZXNoIjpmYWxzZX0.VYXHZUsC16w56ytc_cnbhLESmqWiSwQh-bAcVjq4zpY
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T084012.500.txt
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUxMjcxMzQ5LCJqdGkiOiJjMWUxMjliZi0wY2M0LTRkZTctOGY3My1hOWI5NmM5NjMyZmQiLCJyZWZyZXNoIjpmYWxzZX0.VYXHZUsC16w56ytc_cnbhLESmqWiSwQh-bAcVjq4zpY
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T084006.500.txt
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUxMjcxMzQ5LCJqdGkiOiJjMWUxMjliZi0wY2M0LTRkZTctOGY3My1hOWI5NmM5NjMyZmQiLCJyZWZyZXNoIjpmYWxzZX0.VYXHZUsC16w56ytc_cnbhLESmqWiSwQh-bAcVjq4zpY
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T071640.403.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/logout
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUxMjcxMzQ5LCJqdGkiOiJjMWUxMjliZi0wY2M0LTRkZTctOGY3My1hOWI5NmM5NjMyZmQiLCJyZWZyZXNoIjpmYWxzZX0.VYXHZUsC16w56ytc_cnbhLESmqWiSwQh-bAcVjq4zpY
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T071636.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUxMjcxMzQ5LCJqdGkiOiJjMWUxMjliZi0wY2M0LTRkZTctOGY3My1hOWI5NmM5NjMyZmQiLCJyZWZyZXNoIjpmYWxzZX0.VYXHZUsC16w56ytc_cnbhLESmqWiSwQh-bAcVjq4zpY
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-30T071617.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/v1/users/login
-Content-Type: application/json
-Content-Length: 62
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "email": "smitpehjter@gmail.com",
-  "password": "123456"
-}
-
-<> 2025-06-30T071549.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/logout
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzk4NjUwLCJqdGkiOiJhZTQwZGIwZi0zZWJmLTQ2N2UtYTRjNi0wNmQwYTMwNjU3ODkiLCJyZWZyZXNoIjpmYWxzZX0.0lUli3gSAWDzjV0T0fj8sGxpV6EjEdMaq2Oh-wgrkZQ
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-24T200120.403.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzk4NjUwLCJqdGkiOiJhZTQwZGIwZi0zZWJmLTQ2N2UtYTRjNi0wNmQwYTMwNjU3ODkiLCJyZWZyZXNoIjpmYWxzZX0.0lUli3gSAWDzjV0T0fj8sGxpV6EjEdMaq2Oh-wgrkZQ
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-24T195825.403.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/logout
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzk4NjUwLCJqdGkiOiJhZTQwZGIwZi0zZWJmLTQ2N2UtYTRjNi0wNmQwYTMwNjU3ODkiLCJyZWZyZXNoIjpmYWxzZX0.0lUli3gSAWDzjV0T0fj8sGxpV6EjEdMaq2Oh-wgrkZQ
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-24T195816.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzk4NjUwLCJqdGkiOiJhZTQwZGIwZi0zZWJmLTQ2N2UtYTRjNi0wNmQwYTMwNjU3ODkiLCJyZWZyZXNoIjpmYWxzZX0.0lUli3gSAWDzjV0T0fj8sGxpV6EjEdMaq2Oh-wgrkZQ
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-24T195758.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/v1/users/login
-Content-Type: application/json
-Content-Length: 62
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "email": "smitpehjter@gmail.com",
-  "password": "123456"
-}
-
-<> 2025-06-24T195730.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwODgwODQwLCJqdGkiOiIxZjQ0ZWNiYS1kZmUwLTQ4MDctOTJkYy0wYWNlMjMxYmFmYTkiLCJyZWZyZXNoIjp0cnVlfQ.DHcCsfNnIHWl_-dvkt9XDWIC9sffppP73frZYoCDtLE
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-24T195722.401.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwODgwODQwLCJqdGkiOiIxZjQ0ZWNiYS1kZmUwLTQ4MDctOTJkYy0wYWNlMjMxYmFmYTkiLCJyZWZyZXNoIjp0cnVlfQ.DHcCsfNnIHWl_-dvkt9XDWIC9sffppP73frZYoCDtLE
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-24T195721.401.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/refresh_token
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzEyOTc3LCJqdGkiOiI3YTdhYjk2OS02YjEzLTQzMzEtOTM4NS05YThhNjliMmVmZjUiLCJyZWZyZXNoIjpmYWxzZX0.OQl3PTo0w_Ws7Tc9zORAsfDksoBm0UhF8gtxIULQK40
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-24T194932.403.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/refresh_token
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzEyOTc3LCJqdGkiOiI3YTdhYjk2OS02YjEzLTQzMzEtOTM4NS05YThhNjliMmVmZjUiLCJyZWZyZXNoIjpmYWxzZX0.OQl3PTo0w_Ws7Tc9zORAsfDksoBm0UhF8gtxIULQK40
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-24T190605.401.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwODgwODQwLCJqdGkiOiIxZjQ0ZWNiYS1kZmUwLTQ4MDctOTJkYy0wYWNlMjMxYmFmYTkiLCJyZWZyZXNoIjp0cnVlfQ.DHcCsfNnIHWl_-dvkt9XDWIC9sffppP73frZYoCDtLE
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-cookie:
-
-<> 2025-06-24T190541.401.json
-
-###
-
-GET http://127.0.0.1:8000/api/v1/users/refresh_token
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYifSwiZXhwIjoxNzUwNzEyOTc3LCJqdGkiOiI3YTdhYjk2OS02YjEzLTQzMzEtOTM4NS05YThhNjliMmVmZjUiLCJyZWZyZXNoIjpmYWxzZX0.OQl3PTo0w_Ws7Tc9zORAsfDksoBm0UhF8gtxIULQK40
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-23T201007.401.json
 
 ###
 

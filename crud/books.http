@@ -1,6 +1,6 @@
 ### get all books
 GET http://127.0.0.1:8000/api/v1/books
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoic21pdHBlaGp0ZXJAZ21haWwuY29tIiwidXNlcl91aWQiOiJlMzZjZGQ0OC00NmYzLTRkYTYtYTY3My00MmM1ZGE0ZGFjNmYiLCJyb2xlIjoidXNlciJ9LCJleHAiOjE3NTEyOTEzNzAsImp0aSI6IjA3ZWQ4OTQzLTZiYmItNGJhYy04YmNiLTg5ZjVhYmNlOTVjNSIsInJlZnJlc2giOmZhbHNlfQ.R8LGvh043cJB937Z_a6X2qbpqTzWD1r9e85ux0IjYLA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
 
 
 ### create a book
@@ -18,7 +18,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsI
 }
 
 ### visit a book
-GET http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132
+GET http://127.0.0.1:8000/api/v1/books/01e37e25-4712-4fa7-bb8a-c6fc9e22b871
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGVzenRlbGVrNUBnbWFpbC5jb20iLCJ1c2VyX3VpZCI6ImViMWI5ZjZiLTJlOWQtNGJhMy04MjU2LThkZmI3MzdmMzk4NCIsInJvbGUiOiJ1c2VyIn0sImV4cCI6MTc1MTM4MjgyMiwianRpIjoiYmQ0YjEzMjUtOGU0NC00ZjIxLWI4YWEtMjY4NDVmMjQxYTE1IiwicmVmcmVzaCI6ZmFsc2V9.C_wJ_VeLGZ7tfrl_h3uSloAQ8QcheqRMBFbrx2sS9As
 
 ### update a book
 PATCH http://127.0.0.1:8000/api/v1/books/6a15c3c0-a3b4-4564-ac18-d2c7bea98132

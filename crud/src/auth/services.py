@@ -1,4 +1,4 @@
-from .models import User
+from crud.src.db.models import User
 from sqlmodel.ext.asyncio.session import AsyncSession
 from sqlmodel import select
 from .schems import UserCreateModel

@@ -6,7 +6,7 @@ from crud.src.db.redis import token_blocklist, token_in_blocklist
 from sqlmodel.ext.asyncio.session import AsyncSession
 from crud.src.db.main import get_session
 from .services import UserService
-from .models import User
+from crud.src.db.models import User
 from typing import List
 
 user_service = UserService()
