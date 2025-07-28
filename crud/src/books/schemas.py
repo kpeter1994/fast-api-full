@@ -4,6 +4,9 @@ from typing import Optional, List
 from crud.src.rewiews.schemas import Review
 from datetime import datetime, date
 
+from crud.src.tags.schemas import TagModel
+
+
 class Book(BaseModel):
     uid: uuid.UUID
     title: str
@@ -17,6 +20,7 @@ class Book(BaseModel):
 
 class BookDetailModel(Book):
     reviews: List[Review]
+    tags: List[TagModel]
 
 class BookCreateModel(BaseModel):
     title: str

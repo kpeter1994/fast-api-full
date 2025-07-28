@@ -29,6 +29,24 @@ class User(SQLModel, table=True):
     def __repr__(self):
         return f"<User {self.username} ({self.email})>"
 
+class BookTag(SQLModel, table=True):
+    book_uid: uuid.UUID = Field(default_factory=uuid.uuid4, primary_key=True, sa_type=pg.UUID)
+    tag_uid: uuid.UUID = Field(default_factory=uuid.uuid4, primary_key=True, sa_type=pg.UUID)
+
+class Tag(SQLModel, table=True):
+    __tablename__ = "tags"
+    uid: uuid.UUID = Field(sa_column=Column(pg.UUID, nullable=False, primary_key=True, default=uuid.uuid4))
+    name: str = Field(sa_column=Column(pg.VARCHAR, nullable=False))
+    created_at: datetime = Field(sa_column=Column(pg.TIMESTAMP, default=datetime.now))
+    books: List["Book"] = Relationship(
+        link_model=BookTag,
+        back_populates="tags",
+        sa_relationship_kwargs={"lazy": "selectin"},
+    )
+
+    def __repr__(self) -> str:
+        return f"<Tag {self.name}>"
+
 
 class Book(SQLModel, table=True):
     __tablename__ = "books"
@@ -47,7 +65,11 @@ class Book(SQLModel, table=True):
         back_populates="book",
         sa_relationship_kwargs={"lazy": "selectin"}
     )
-
+    tags: List[Tag] = Relationship(
+        link_model=BookTag,
+        back_populates="books",
+        sa_relationship_kwargs={"lazy": "selectin"}
+    )
 
     def __repr__(self):
         return f"<Book {self.title} by {self.author}>"

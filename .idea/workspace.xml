@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148310c2-7735-4de9-9b0e-f5cbd312d9fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crud/src/db/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/rewiews/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/rewiews/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/rewiews/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/rewiews/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/tags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/tags/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/tags/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/tags/services.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/books.http" beforeDir="false" afterPath="$PROJECT_DIR$/crud/books.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/migrations/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/books.http" beforeDir="false" afterPath="$PROJECT_DIR$/tests/books.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/reviews.http" beforeDir="false" afterPath="$PROJECT_DIR$/tests/reviews.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/dependecies.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/dependecies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/schems.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/schems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/books/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/books/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/books/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/books/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/user.http" beforeDir="false" afterPath="$PROJECT_DIR$/crud/user.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/db/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/db/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/user.http" beforeDir="false" afterPath="$PROJECT_DIR$/tests/user.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,47 +46,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.All in app_tester.executor": "Run",
-    "HTTP Request.app_tester | GET request to example server.executor": "Run",
-    "HTTP Request.app_tester | Response.executor": "Run",
-    "HTTP Request.app_tester | create book.executor": "Run",
-    "HTTP Request.app_tester | get_headers.executor": "Run",
-    "HTTP Request.app_tester | greet request.executor": "Run",
-    "HTTP Request.books | create a book (1).executor": "Run",
-    "HTTP Request.books | create a book.executor": "Run",
-    "HTTP Request.books | delete a book.executor": "Run",
-    "HTTP Request.books | get all books (1).executor": "Run",
-    "HTTP Request.books | get all books.executor": "Run",
-    "HTTP Request.books | get books for user.executor": "Run",
-    "HTTP Request.books | update a book.executor": "Run",
-    "HTTP Request.books | visit a book.executor": "Run",
-    "HTTP Request.reviews | create a review.executor": "Run",
-    "HTTP Request.user | create a user.executor": "Run",
-    "HTTP Request.user | create refresh token.executor": "Run",
-    "HTTP Request.user | get me.executor": "Run",
-    "HTTP Request.user | login a user.executor": "Run",
-    "HTTP Request.user | logout a user.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/KomPhone/projects/experimental/fast-api-full/crud",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.All in app_tester.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | Response.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | create book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | get_headers.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.app_tester | greet request.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | create a book (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | create a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | delete a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | get all books (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | get all books.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | get books for user.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | update a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.books | visit a book.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.reviews | create a review.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | create a user.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | create refresh token.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | get me.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | login a user.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | logout a user.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KomPhone/projects/experimental/fast-api-full/crud&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud" />
@@ -103,11 +96,11 @@
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\tests" />
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud\src\books" />
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full" />
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\crud" />
       <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud" />
-      <recent name="C:\Users\KomPhone\projects\experimental\fast-api-full\02_crud\src\books" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -185,7 +178,11 @@
       <workItem from="1750695974012" duration="6213000" />
       <workItem from="1750784230237" duration="4381000" />
       <workItem from="1751256492244" duration="19994000" />
-      <workItem from="1751351536139" duration="15903000" />
+      <workItem from="1751351536139" duration="16573000" />
+      <workItem from="1751871362049" duration="32000" />
+      <workItem from="1752250236958" duration="3445000" />
+      <workItem from="1753627395902" duration="8352000" />
+      <workItem from="1753704632948" duration="1869000" />
     </task>
     <servers />
   </component>
