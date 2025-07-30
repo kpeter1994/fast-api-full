@@ -9,6 +9,8 @@ from .services import UserService
 from crud.src.db.models import User
 from typing import List
 
+from crud.src.errors import InvalidToken
+
 user_service = UserService()
 
 
@@ -25,13 +27,7 @@ class TokenBearer(HTTPBearer):
         token_data = decode_token(token)
 
         if not self.token_valid(token):
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail={
-                    "error": "This token has been revoked or is invalid.",
-                    "resolution": "Please login again to obtain a new token.",
-                },
-            )
+            raise InvalidToken()
 
         if await token_in_blocklist(token_data['jti']):
             raise HTTPException(
