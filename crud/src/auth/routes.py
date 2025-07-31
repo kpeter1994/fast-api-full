@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, status, BackgroundTasks
-from .schems import UserCreateModel, UserModel, UserLoginModel, UserBookModel, EmailModel
+from .schems import UserCreateModel, UserModel, UserLoginModel, UserBookModel, EmailModel, PasswordResetRequestModel, \
+    PasswordResetConfirmModel
 from .services import UserService
-from .utils import verify_password, decode_url_safe_token, create_url_safe_token
+from .utils import verify_password, decode_url_safe_token, create_url_safe_token, generate_phash
 from crud.src.db.main import get_session
 from sqlmodel.ext.asyncio.session import AsyncSession
 from fastapi.exceptions import HTTPException
@@ -13,6 +14,7 @@ from crud.src.db.redis import add_jti_to_blocklist
 from crud.src.errors import UserAlreadyExists, UserNotFound
 from crud.src.mail import create_message, mail
 from crud.src.config import Config
+from crud.src.celery_tasks import send_email
 
 auth_router = APIRouter()
 user_service = UserService()
@@ -24,13 +26,9 @@ REFRESH_TOKEN_EXPIRY = 2
 async def send_mail(emails:EmailModel):
     emails = emails.addresses
     html = "<h1>Welcome to our service!</h1><p>Thank you for signing up.</p>"
-    message = create_message(
-        recipients=emails,
-        subject="Welcome to our service!",
-        body=html
-    )
+    subject = "Welcome to app"
 
-    await mail.send_message(message)
+    send_email.delay(emails, subject, html)
 
     return {"message": "Emails sent successfully"}
 
@@ -54,13 +52,7 @@ async def create_user_account(
     <p>Please click this <a href="{link}">link</a> to verify your email.</p>
     """
 
-    message = create_message(
-        recipients=[email],
-        subject="Verify your email",
-        body=html_message
-    )
-
-    await mail.send_message(message)
+    send_email.delay([email], "Verify your email", html_message)
 
     return {
         "message": "User created successfully, please check your email to verify your account.",
@@ -135,6 +127,8 @@ async def login_user(login_data: UserLoginModel, session: AsyncSession = Depends
 async def get_current_user(user = Depends(get_current_user), _:bool = Depends(role_checker)):
     return user
 
+
+
 @auth_router.get("/refresh_token")
 async def get_new_access_token(token_details: dict = Depends(RefreshTokenBearer())):
     expiry_timestamp = token_details['exp']
@@ -162,4 +156,58 @@ async def revooke_token(token_details:dict = Depends(AccessTokenBearer())):
         },
         status_code=status.HTTP_200_OK
     )
+
+@auth_router.post('/password-reset-request')
+async def password_reset(email_data: PasswordResetRequestModel):
+    email = email_data.email
+
+    token = create_url_safe_token({"email": email})
+
+    link = f"http://{Config.DOMAIN}/api/v1/users/password-reset-confirm/{token}"
+
+    html_message = f"""
+        <h1>Reset your password</h1>
+        <p>Please click this <a href="{link}">link</a> to reset your password.</p>
+        """
+
+    message = create_message(
+        recipients=[email],
+        subject="Reset your password",
+        body=html_message
+    )
+
+    await mail.send_message(message)
+    return JSONResponse(
+        content={
+            "message": "Please check your email for the password reset link."
+        },
+        status_code=status.HTTP_200_OK
+    )
+
+@auth_router.get("/password-reset-confirm/{token}")
+async def reset_account_password(
+        token: str,
+        password: PasswordResetConfirmModel,
+        session: AsyncSession = Depends(get_session)
+):
+    if password.new_password != password.confirm_new_password:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="New password and confirmation do not match."
+        )
+    token_data = decode_url_safe_token(token)
+
+    user_email = token_data.get("email")
+    if user_email:
+        user = await user_service.get_user_by_email(user_email, session)
+        if not user:
+            raise UserNotFound()
+
+        await user_service.update_user(user, {"password": generate_phash(password.new_password)}, session)
+        return JSONResponse(content={
+            "message": "Password reset successfully",
+        }, status_code=status.HTTP_200_OK)
+    return JSONResponse(content={
+        "message": "Error resetting password, user not found or invalid token.",
+    }, status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 

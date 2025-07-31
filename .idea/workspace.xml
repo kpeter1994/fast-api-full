@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148310c2-7735-4de9-9b0e-f5cbd312d9fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crud/src/mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/middleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/celery_tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/auth/dependecies.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/dependecies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/auth/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/auth/schems.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/schems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/auth/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/auth/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/books/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/books/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/db/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/db/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/errors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/books.http" beforeDir="false" afterPath="$PROJECT_DIR$/tests/books.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/user.http" beforeDir="false" afterPath="$PROJECT_DIR$/tests/user.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/db/redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/db/redis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +181,7 @@
       <workItem from="1752250236958" duration="3445000" />
       <workItem from="1753627395902" duration="8352000" />
       <workItem from="1753704632948" duration="14593000" />
-      <workItem from="1753868284055" duration="11768000" />
+      <workItem from="1753868284055" duration="27402000" />
     </task>
     <servers />
   </component>

@@ -40,3 +40,11 @@ alembic upgrade head
 ## Adatbázis frissítés
 
 ```alembic revision --autogenerate -m "message"```
+
+## Asgiref
+
+segít futattni aszinkron kódot szinkron környezetben
+
+```
+pip install asgiref
+```

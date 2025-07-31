@@ -9,7 +9,7 @@ from .services import UserService
 from crud.src.db.models import User
 from typing import List
 
-from crud.src.errors import InvalidToken
+from crud.src.errors import InvalidToken, AccountNotVerified, InsufficientPermission
 
 user_service = UserService()
 
@@ -82,9 +82,8 @@ class RoleChecker:
 
 
     def __call__(self, current_user: User = Depends(get_current_user)):
-        if current_user.role not in self.allowed_roles:
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail="You do not have permission to perform this action.",
-            )
-        return current_user
+        if not current_user.is_verified:
+            raise AccountNotVerified()
+        if current_user.role in self.allowed_roles:
+            return True
+        raise InsufficientPermission
